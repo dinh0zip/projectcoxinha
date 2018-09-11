@@ -1,14 +1,15 @@
-body{
+body {
     margin: 0;
     /* background-c:olor: black; */
 }
-h1{
+
+h1 {
     color: blue;
     text-align: center;
     font-weight: bold;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,36 +17,34 @@ header{
 }
 
 header img {
-    width: 15vw; 
+    width: 15vw;
     margin-right: 10px;
     padding: 5px;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     padding: 10px;
     color: white;
     font-size: 12pt;
     margin-left: 15px;
     border-radius: 10px;
-    
-
 }
 
 .menu a:hover {
     background-color: black;
     border-bottom: solid 3px cyan;
     /* font-weight: bold; */
-
 }
 
-aside{
+aside {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.text h2, .text p {
+.text h2,
+.text p {
     padding: 10px;
     margin 20px 10px 0px 10px;
     color: blue;
@@ -56,9 +55,10 @@ aside{
     line-height: 20px;
     letter-spacing: 1px;
     margin-left: 15px;
-}
-.interatividade{
     display: flex;
-    
-
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 20px 20px 20px;
 }
+
+.interatividade {}
